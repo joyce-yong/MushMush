@@ -68,18 +68,18 @@ ice_shooting = False
 
 
 # audio
-laser_fx = pygame.mixer.Sound(os.path.join('audio', 'burst_fire.mp3'))
+laser_fx = pygame.mixer.Sound(os.path.join('audio', 'burst_fire.ogg'))
 heavyLaser_fx = pygame.mixer.Sound(os.path.join('audio', 'laserLarge.ogg'))
-rockets_fx = pygame.mixer.Sound(os.path.join('audio', 'tir.mp3'))
+rockets_fx = pygame.mixer.Sound(os.path.join('audio', 'tir.ogg'))
 explode_fx = pygame.mixer.Sound(os.path.join('audio', 'snd_bomb.ogg'))
-asteroid_fx = pygame.mixer.Sound(os.path.join('audio', 'breaPower.wav'))
+asteroid_fx = pygame.mixer.Sound(os.path.join('audio', 'breaPower.ogg'))
 rapid_laser_fx = pygame.mixer.Sound(os.path.join('audio','explosion4.ogg'))
 shield_fx = pygame.mixer.Sound(os.path.join('audio', "teleport_01.ogg"))
 death_fx = pygame.mixer.Sound(os.path.join('audio', 'explosion3.ogg'))
 plasma_explode_fx = pygame.mixer.Sound(os.path.join('audio', 'buzz.ogg'))
 plasma_fx = pygame.mixer.Sound(os.path.join('audio', 'misc_01.ogg'))
-mothership_fx = pygame.mixer.Sound(os.path.join('audio', 'boss.mp3'))
-ice_shoot_fx = pygame.mixer.Sound(os.path.join('audio', 'ice.mp3'))
+mothership_fx = pygame.mixer.Sound(os.path.join('audio', 'boss.ogg'))
+ice_shoot_fx = pygame.mixer.Sound(os.path.join('audio', 'ice.ogg'))
 laser_fx.set_volume(0.2)
 
 channel_1 = pygame.mixer.Channel(0)  # intros

@@ -39,8 +39,8 @@ def play_music(song_path):
 
 current_song = 'song1' # Track the current song
 is_paused = False # Track if the game music is paused or not
-song2_path = os.path.join('audio', 'Cyberpunk Background Music.mp3')
-song1_path = os.path.join('audio', 'Dark Techno EBM Background Music.mp3')
+song2_path = os.path.join('audio', 'Cyberpunk Background Music.ogg')
+song1_path = os.path.join('audio', 'Dark Techno EBM Background Music.ogg')
 
 # Play initial song on start
 play_music(song1_path)
